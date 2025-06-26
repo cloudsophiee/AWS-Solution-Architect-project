@@ -1,2 +1,3 @@
 # AWS-Solution-Architect-project
-Hello world, This is my project profile
+## Project overview 
+~~this is just a summary of what the project is all about here~~
