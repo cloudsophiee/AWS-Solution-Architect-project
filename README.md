@@ -1,7 +1,13 @@
-# THIS IS OUR PROJECT TOPIC
-## Tiltle of project here
+# Project Name 
+### GREENEATS is an online food ordering system
+# step 1.
+to test your frontend on your pc open a new folder.
 
-~~Strikethrough text here~~
+go to texteditor (for mac user)
 
 
-!(./images/pic1.png)
+
+
+
+
+
