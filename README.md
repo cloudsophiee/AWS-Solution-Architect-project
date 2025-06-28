@@ -12,7 +12,7 @@ Name → restaurant_id
 
 Type → String
 
-####  to input iteams click explory
+####  to input iteams click explory ( note you can genereate a jeson code and deploy i just tried inserting the code manually)
 
 |FIELD                            |VALUE                            |
 |---------------------------------|---------------------------------|
@@ -54,12 +54,27 @@ Type → String
 
 ### To input items click explore: create iteams
 
-|FILED                                   |VALUE                           |
-|----------------------------------------|--------------------------------|
-|order_id                                |ord001                          |
-|restaurant_id                           |r001                            |
-|table_number                            |12                              |
-|tems                                    |Click Add list item             |       
+Json and pes this code 
+
+{
+  "order_id": { "S": "ord001" },
+  "restaurant_id": { "S": "r001" },
+  "table_number": { "S": "12" },
+  "status": { "S": "Order Received" },
+  "timestamp": { "S": "2025-06-28T10:30:00Z" },
+  "items": {
+    "L": [
+      {
+        "M": {
+          "item_id": { "S": "i001" },
+          "name": { "S": "Veggie Burger" },
+          "quantity": { "N": "2" },
+          "price": { "N": "5.99" }
+        }
+      }
+    ]
+  }
+}
 
 
 
