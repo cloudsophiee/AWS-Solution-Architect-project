@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # *GREENEATS ONLINE FOOD Delivery*
 *PER-REQUISITE*
 
@@ -117,4 +118,6 @@ copy  your api url and your roult. use the curl command to test if tour api perf
 
 
 
+=======
+>>>>>>> f795f4f4fb6423e64673250ba11e578b5045c92a
 
